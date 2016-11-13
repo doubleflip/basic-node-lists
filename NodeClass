@@ -1,0 +1,28 @@
+/*
+*11-9-16
+*node class
+*/
+
+import java.io.*;
+
+public class Lnode{
+	String d;
+	Lnode next;
+	
+	public Lnode(String d, Lnode next){
+		this.d = d;
+		this.next = next;
+	}
+
+	public Lnode getNext(){
+		return next;
+	}
+
+	public void setNext(Lnode next){
+		this.next = next;
+	}
+
+	public String getData(){
+		return d;
+	}
+}
